@@ -1,3 +1,7 @@
+CREATE TABLE IF NOT EXISTS `bolton-data-lake.data_lake_metadata.ingestion`
+(processed_timestamp timestamp,
+ tablename timestamp);
+
 INSERT INTO `bolton-data-lake.data_lake_metadata.ingestion` values
 ('1995-01-01 00:00:01','customers'),
 ('1995-01-01 00:00:01','employees'),

@@ -1,4 +1,4 @@
-CREATE TABLE `bolton-data-lake.gold.dim_date` as
+CREATE OR REPLACE TABLE `bolton-data-lake.gold.dim_date` as
 SELECT
   FORMAT_DATE('%F', d) as id,
   d AS full_date,
