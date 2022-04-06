@@ -6,4 +6,10 @@
   3. Cloud SQL 
   4. DataGrip (Optional)
 
+Cloud SQL:
+
+1. curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64
+2. chmod +x cloud_sql_proxy
+3. ./cloud_sql_proxy -instances=bolton-data-lake:europe-west3:bolton-data-lake-demo-my-sql=tcp:3306
+
   
